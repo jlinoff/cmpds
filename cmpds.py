@@ -46,7 +46,7 @@ Here is an example to make sense of it all.
 We want to compare two versions of the foobar program to see if the
 second version is faster than the first for the same inputs. The
 versions are 1.1 and 1.2. The program takes about 2 minutes to run
-(120 secons) and we want to determine whether v1.2 is faster.
+(120 seconds) and we want to determine whether v1.2 is faster.
 The table below shows sample data 10 runs for each version.
 
    # Run time data collected for v1.1 and v1.2.
