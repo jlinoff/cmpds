@@ -186,7 +186,7 @@ In addition there are a number of optional arguments. They are shown in the tabl
 | -h         | --help       | Show the help message and exit. |
 | | --internal T L U I | Factors used for internal compution.<br>You normally do not need to change these.<br>See the actual help for more details. |
 | -k COL1 COL2 | --cols COL1 COL2 | The columns that define each dataset.<br>The first column is for the first dataset.<br>The second column is for the second dataset.<br>If the value in the column is not a floating point number it is ignored.
-| -s UINT | --snd-threshold UINT | The standard normal distribution (SND) threshold.<br>When the number of effective degrees of freedom (DOF)<br>exceeds this threshold, the SND is used instead of a<br>t-distribution.|
+| -s UINT | --snd-threshold UINT | The standard normal distribution (SND) threshold.<br>When the number of effective degrees of freedom (DOF)<br>exceeds this threshold, the SND is used instead of a<br>t-distribution.<br>The default is 32.|
 | -v | --verbose | Increase the level of verbosity.<br>Specify -v to see the values that make up the computation.<br>Specify -v -v to internal details about the z value lookup and<br>values that were discarded during file reads.|
 | -V | --version | Show program's version number and exit. |
 
