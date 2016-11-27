@@ -583,6 +583,7 @@ The first column is for the first dataset.
 The second column is for the second dataset.
 If the value in the column is not a floating point
 number it is ignored.
+The default is column 1 for both datasets.
  ''')
 
     parser.add_argument('-s', '--snd-threshold',
@@ -593,6 +594,7 @@ number it is ignored.
 When the number of effective degrees of freedom (DOF)
 exceeds this threshold, the SND is used instead of a
 t-distribution.
+The default is %(default)s.
  ''')
     
     parser.add_argument('-v', '--verbose',
