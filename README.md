@@ -125,7 +125,7 @@ If you reverse the columns, you will get the opposite result:
 ```bash
 $ ./cmpds.py -c 0.95 -k 3 2 data.txt
 With 95.0% confidence, dataset-2 is larger than dataset-1 by about 1.1%.
-```bash
+```
 
 > We use -k to specify the columns because -c is already reserved for
 > specifying the confidence level.
