@@ -172,7 +172,7 @@ $ ./cmpds.py -c 0.95 /tmp/v1.ds /tmp/v2.ds
 With 95.0% confidence, dataset-2 is smaller than dataset-1 by about 1.3%.
 ```
 
-That tells use that v2 is indeed slightly faster.
+That tells us that v2 is indeed slightly faster.
 
 ## Program arguments
 The program requires that you specify one or two dataset files as input.
