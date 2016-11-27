@@ -175,15 +175,15 @@ With 95.0% confidence, dataset-2 is smaller than dataset-1 by about 1.3%.
 That tells us that v2 is indeed slightly faster.
 
 ## Program arguments
-The program requires that you specify one or two dataset files as input.
-In addition there are a number optional arguments.
-They are shown in the table below.
+The program requires that you specify one or two dataset files as input. At least one file is required.
+
+In addition there are a number of optional arguments. They are shown in the table below.
 
 | Short Form | Long Form    | Description |
 | :--------- | :----------- | :---------- |
 | -c FLOAT   | --conf FLOAT | The confidence level such that 0 < c < 1.<br>The default is 0.95. |
 | -h         | --help       | Show the help message and exit. |
-| | --internal T L U I | Factors used for internal compution.<br>You normally do not need to change these.<br>See the actual help for more details |
+| | --internal T L U I | Factors used for internal compution.<br>You normally do not need to change these.<br>See the actual help for more details. |
 | -k COL1 COL2 | --cols COL1 COL2 | The columns that define each dataset.<br>The first column is for the first dataset.<br>The second column is for the second dataset.<br>If the value in the column is not a floating point number it is ignored.
 | -s UINT | --snd-threshold UINT | The standard normal distribution (SND) threshold.<br>When the number of effective degrees of freedom (DOF)<br>exceeds this threshold, the SND is used instead of a<br>t-distribution.|
 | -v | --verbose | Increase the level of verbosity.<br>Specify -v to see the values that make up the computation.<br>Specify -v -v to internal details about the z value lookup and<br>values that were discarded during file reads.|
