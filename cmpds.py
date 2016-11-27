@@ -599,6 +599,7 @@ The default is %(default)s.
     
     parser.add_argument('-v', '--verbose',
                         action='count',
+                        default=0,
                         help='''Increase the level of verbosity.
 Specify -v to see the values that make up the computation.
 Specify -v -v to internal details about the z value lookup and
