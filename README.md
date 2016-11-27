@@ -154,7 +154,7 @@ The above command takes advantage of the fact that posix time format
 example:
 
 ```bash
-$ /usr/bin/time sleep 0.3
+$ /usr/bin/time -p sleep 0.3
 real         0.30
 user         0.00
 sys          0.00
