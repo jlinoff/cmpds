@@ -105,7 +105,7 @@ fi
 rm -f $ds1 $ds2
 
 # Test 6. example 1 - two datasets in one file
-tid='exmple-1 two datasets in one file'
+tid='example-1 two datasets in one file'
 printf '\ntest %s\n' "$tid"
 ds='example1.ds'
 if $CmpDS -k 2 3 $ds | grep 'dataset-2 is smaller' ; then
