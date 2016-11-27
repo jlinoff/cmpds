@@ -73,7 +73,8 @@ test:summary total   6
 PASSED
 ```
 
-This tool has been tested on Mac OS X 10.11.6 and CentOS 7.2. It should run on any linux or BSD unix system.
+This tool has been tested using Python 2.7 and Python 3.5 on Mac OS X 10.11.6 and CentOS 7.2.
+It should run on any linux or BSD unix system using a standard installation.
 It will also probably run on Windows systems but I am unable to test that because I don't have one available.
 
 ## Example 1 - two datasets in one file
