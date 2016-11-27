@@ -188,3 +188,8 @@ They are shown in the table below.
 | -s UINT | --snd-threshold UINT | The standard normal distribution (SND) threshold.<br>When the number of effective degrees of freedom (DOF)<br>exceeds this threshold, the SND is used instead of a<br>t-distribution.|
 | -v | --verbose | Increase the level of verbosity.<br>Specify -v to see the values that make up the computation.<br>Specify -v -v to internal details about the z value lookup and<br>values that were discarded during file reads.|
 | -V | --version | Show program's version number and exit. |
+
+## Feedback
+Any feedback or suggestions to improve the approach are greatly appreciated.
+
+Enjoy!
