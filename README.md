@@ -140,7 +140,7 @@ A more realistic example would be running a program called blackbox-v1
 blackbox-v2 and collecting its output. Here is how you might do it:
 
 ```bash
-$ rm -f /tmp/blackbox-v1.out /tmp/blackbox-v2.out
+$ rm -f /tmp/v1.out /tmp/v2.out
 $ for((i=1;i<=50;i++)) ; do printf '\nExp %03d\n' $i ; /usr/bin/time -p blackbox-v1 >> /tmp/v1.out ; done
 $ for((i=1;i<=50;i++)) ; do printf '\nExp %03d\n' $i ; /usr/bin/time -p blackbox-v2 >> /tmp/v2.out ; done
 ```
@@ -149,8 +149,8 @@ We can now capture the real run time data by simply grepping out the
 data like this:
 
 ```bash
-$ grep -w ^real /tmp/v1.out > /tmp/v1.ds
-$ grep -w ^real /tmp/v2.out > /tmp/v2.ds
+$ grep -w ^real /tmp/v1.out | awk '{print $2}' > /tmp/v1.ds
+$ grep -w ^real /tmp/v2.out | awk '{print $2}' > /tmp/v2.ds
 ```
 
 The above command takes advantage of the fact that posix time format
