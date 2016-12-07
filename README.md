@@ -63,9 +63,9 @@ test dataset-2 is larger, CL=90%
 With 90.0% confidence, dataset-2 is larger than dataset-1 by about 1.6%.
 test:05:099: passed - dataset-2 is larger, CL=90%
 
-test exmple-1 two datasets in one file
+test example-1 two datasets in one file
 With 95.0% confidence, dataset-2 is smaller than dataset-1 by about 1.1%.
-test:06:110: passed - exmple-1 two datasets in one file
+test:06:110: passed - example-1 two datasets in one file
 
 test:summary passed  6
 test:summary failed  0
