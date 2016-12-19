@@ -124,7 +124,7 @@ EXAMPLES:
   #            10 and 12 seconds with 2 decimal digits of precision.
   #            Typically you would want to generate at least 50
   #            elements to enable the use of the SND for analysis.
-  $ {0} -d 2 6 10 12
+  $ {0} -D -d 2 6 10 12
   # date = 2016-11-24 08:30:31.039108
   # num = 6
   # lower = 10.000
