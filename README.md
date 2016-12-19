@@ -193,4 +193,8 @@ In addition there are a number of optional arguments. They are shown in the tabl
 ## Feedback
 Any feedback or suggestions to improve the approach are greatly appreciated.
 
+## References
+
+1. Jain, Raj (1991). _The Art of Computer Systems Performance Analysis_, John Wiley & Sons, Inc, New York.
+
 Enjoy!
