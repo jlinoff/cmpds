@@ -17,7 +17,7 @@ must have more than 2 entries. Typically you would like to have
 at least 50 entries in each dataset.
 
 You must specify the confidence level that you want to use to
-determine whether the datasets differ. Typical confidence levels 0.90
+determine whether the datasets differ. Typical confidence levels are 0.90
 (90%), 0.95 (95%) and 0.99 (99%). The tool will automatically
 determine the associated z-value based on the confidence level and the
 number of effective degrees of freedom. No table look ups are
