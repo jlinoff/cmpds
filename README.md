@@ -190,6 +190,34 @@ In addition there are a number of optional arguments. They are shown in the tabl
 | -v | --verbose | Increase the level of verbosity.<br>Specify -v to see the values that make up the computation.<br>Specify -v -v to internal details about the z value lookup and<br>values that were discarded during file reads.|
 | -V | --version | Show program's version number and exit. |
 
+## T-test calculation details
+From page 210 in [1].
+
+### Step 1. Compute the sample means
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416601/f6b890ce-c7c8-11e6-90df-b2622d2b4323.png" width="128" alt="sample mean of dataset a">
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416609/079f53dc-c7c9-11e6-997a-5f3dc3e3fad4.png" width="128" alt="sample mean of dataset b">
+
+### Step 2. Compute the sample standard deviations
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416613/0ba38cb4-c7c9-11e6-9452-e5cfcd8e97e0.png" width="256" alt="stddev of dataset a">
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416614/0e5790ae-c7c9-11e6-93c0-f3766c4978a7.png" width="256" alt="stddev of dataset b">
+
+### Step 3. Compute the standard devation of the mean difference
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416618/15db3074-c7c9-11e6-81e8-e9e739608116.png" width="128" alt="diff of the means">
+
+### Step 4. Compute the effective number of degrees of freedom
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416620/1960b9e4-c7c9-11e6-8f13-b8d1d8c6c10d.png" width="384" alt="dof">
+
+### Step 5. Compute the confidence interval for the difference of the means
+If the confidence interval includes zero, the difference is not significant at the specified confidence level.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416624/1f08ec0e-c7c9-11e6-896d-addfd751cacb.png" width="256" alt="ci">
+
 ## Feedback
 Any feedback or suggestions to improve the approach are greatly appreciated.
 
