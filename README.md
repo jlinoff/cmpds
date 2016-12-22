@@ -214,6 +214,10 @@ If the confidence interval includes zero, the difference is not significant at t
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416624/1f08ec0e-c7c9-11e6-896d-addfd751cacb.png" width="256" alt="ci">
 
+> Note that the t-value in this calculation is the z-value that is automatically calculated for the specified confidence level.
+> For example, a confidence level 95% (0.95) with a reasonably large sample size (>32) would yield a value of 1.96
+> because this is a two-tail lookup based on the standard normal distribution. 
+
 ## Feedback
 Any feedback or suggestions to improve the approach are greatly appreciated.
 
