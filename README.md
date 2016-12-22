@@ -2,10 +2,6 @@
 Compare two datasets to determine whether there is a significant difference between them for a specific confidence level
 using the t-test methodology for unpaired observations.
 
-> Please note that this is not, strictly, a t-test because it switches
-> over to the standard normal distribution (SND) when the number of
-> effective degrees of freedom (DOF) is larger than 32.
-
 It is really useful for determining whether runtime or memory use has
 changed between two different versions of software. The datasets are
 completely independent of the program (i.e. the data values are created by tools
