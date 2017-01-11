@@ -191,9 +191,9 @@ From page 210 in [1].
 
 ### Step 1. Compute the sample means
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416601/f6b890ce-c7c8-11e6-90df-b2622d2b4323.png" width="128" alt="sample mean of dataset a">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21832610/2a71d7b6-d761-11e6-89b8-b9cf721cd6ba.png" width="128" alt="sample mean of dataset a">
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416609/079f53dc-c7c9-11e6-997a-5f3dc3e3fad4.png" width="128" alt="sample mean of dataset b">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21832612/2ddaa540-d761-11e6-91f5-e390f8cb6f33.png" width="128" alt="sample mean of dataset b">
 
 ### Step 2. Compute the sample standard deviations
 
