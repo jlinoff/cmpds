@@ -197,9 +197,9 @@ From page 210 in [1].
 
 ### Step 2. Compute the sample standard deviations
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416613/0ba38cb4-c7c9-11e6-9452-e5cfcd8e97e0.png" width="256" alt="stddev of dataset a">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21832375/89c7b0ca-d75f-11e6-813e-5a0533312a00.png" width="256" alt="stddev of dataset a">
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416614/0e5790ae-c7c9-11e6-93c0-f3766c4978a7.png" width="256" alt="stddev of dataset b">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21832377/8e9133b0-d75f-11e6-936d-9b6ed547a53b.png" width="256" alt="stddev of dataset b">
 
 ### Step 3. Compute the standard devation of the mean difference
 
