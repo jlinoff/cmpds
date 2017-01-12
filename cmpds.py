@@ -135,7 +135,8 @@ import os
 import sys
 
 
-VERSION='0.1'
+#VERSION='0.1'  # Initial load.
+VERSION='0.2'   # Made the std dev calculation simpler.
 
 # ================================================================
 #
@@ -382,22 +383,13 @@ def ttest(a, b, opts):
     infov(opts, 'mean a: {:.3f}'.format(ma))
     infov(opts, 'mean b: {:.3f}'.format(mb))
 
-    # standard deviations
-    stddev_suma2 = sum([x**2 for x in a])
-    stddev_sumb2 = sum([x**2 for x in b])
-    infov(opts, 'stddev sum a^2: {:.3f}'.format(stddev_suma2))
-    infov(opts, 'stddev sum b^2: {:.3f}'.format(stddev_sumb2))
-
-    stddev_nma2 = na * ma ** 2
-    stddev_nmb2 = nb * mb ** 2
-    infov(opts, 'stddev na * ma^2: {:.3f}'.format(stddev_nma2))
-    infov(opts, 'stddev nb * mb^2: {:.3f}'.format(stddev_nmb2))
-
-    vara = (stddev_suma2 - stddev_nma2) / float(na - 1.)
-    varb = (stddev_sumb2 - stddev_nmb2) / float(nb - 1.)
+    # variances
+    vara = sum([(xa - ma) ** 2 for xa in a]) / float(na - 1.)
+    varb = sum([(xb - mb) ** 2 for xb in b]) / float(nb - 1.)
     infov(opts, 'variance a: {:.3f}'.format(vara))
     infov(opts, 'variance b: {:.3f}'.format(varb))
 
+    # standard deviations
     stddeva = math.sqrt(vara)
     stddevb = math.sqrt(varb)
     infov(opts, 'stddev a: {:.3f}'.format(stddeva))
@@ -462,7 +454,7 @@ def ttest(a, b, opts):
     clp = cl * 100.
     if significant:
         per = 100. * abs(md) / ma
-        infov(opts, 'precentage: {}'.format(per))
+        infov(opts, 'percentage: {}'.format(per))
         if club < 0:
             print('With {:.1f}% confidence, dataset-2 is larger than dataset-1 by about {:,.1f}%.'.format(clp, per))
         else:
