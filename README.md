@@ -209,6 +209,10 @@ From page 210 in [1].
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21416620/1960b9e4-c7c9-11e6-8f13-b8d1d8c6c10d.png" width="384" alt="dof">
 
+There is a similar calculation described in https://en.wikipedia.org/wiki/Student's_t-test shown below. It is known as the Welch–Satterthwaite equation. Might want to consider it in the future.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/2991242/21915587/a4ceac84-d8ef-11e6-8159-c4d3a4b958df.png" width="384" alt="dof">
+
 ### Step 5. Compute the confidence interval for the difference of the means
 If the confidence interval includes zero, the difference is not significant at the specified confidence level.
 
